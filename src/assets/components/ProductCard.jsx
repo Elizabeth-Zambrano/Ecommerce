@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { Form, useNavigate } from 'react-router-dom';
 import { addCartThunk } from '../store/slices/cart.slice';
-import { filterCategoryThunk } from '../store/slices/products.slice';
+import { filterCategoryThunk } from '../store/slices/products.slice'
 import {  } from 'react-hook-form';
 
 const ProductCard = ({ product }) => {
